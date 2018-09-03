@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg">
+	<marker id="box-marker" markerWidth="8" markerHeight="8" refX="8" refY="8">
+		<circle
+			cx="8" cy="8" 
+			r="2" 
+			fill="#000000" fill-opacity="1" stroke="none">
+		</circle>
+		<rect
+			x="4" y="4" 
+			width="8" height="8" 
+			fill="none" stroke="#000000" stroke-width="0.8" stroke-opacity="1">
+		</rect>
+	</marker>
+</svg>

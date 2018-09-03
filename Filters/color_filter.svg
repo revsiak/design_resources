@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<filter id="color_filter" color-interpolation-filters="sRGB">
+		<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+											                    0 1 0 0 0
+											                    0 0 1 0 0 
+											                    0 0 0 1 0" result="color_filter"/>
+		
+		<feComposite operator="in" in="color_filter" in2="SourceGraphic" result="color_image"/>
+	</filter>
+</svg>

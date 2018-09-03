@@ -1,0 +1,14 @@
+<svg 
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	width="16"
+	height="16">
+	<path 
+		d="m 4,4 8,8" 
+		fill="none" stroke="#000000" stroke-width="1.6" stroke-opacity="1">
+	</path>
+	<path 
+		d="m 12,4 -8,8" 
+		fill="none" stroke="#000000" stroke-width="1.6" stroke-opacity="1">
+	</path>
+</svg>

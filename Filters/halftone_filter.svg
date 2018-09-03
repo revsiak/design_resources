@@ -1,0 +1,151 @@
+<svg>
+	<defs>
+		<pattern id="halftone_pattern_01" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="0"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_02" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="0.5"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_03" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="1"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_04" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="1.5"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_05" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="2"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_06" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="2.5"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_07" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="3"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+
+		<pattern id="halftone_pattern_08" width="3" height="3">
+			<circle
+				cx="1.5" cy="1.5"
+				r="3.5"
+				fill="#020202" stroke="none">
+			</circle>
+		</pattern>
+	</defs>
+
+
+	<filter id="halftone_filter">
+		<feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="luminance_layer"/>
+
+		
+		<feComponentTransfer in="luminance_layer" result="reverse_luminance_layer">
+			<feFuncA type="table" tableValues="1 0"/>
+		</feComponentTransfer>
+
+		
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_01">
+			<feFuncA type="discrete" tableValues="1 0 0 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_02">
+			<feFuncA type="discrete" tableValues="0 1 0 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_03">
+			<feFuncA type="discrete" tableValues="0 0 1 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_04">
+			<feFuncA type="discrete" tableValues="0 0 0 1 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_05">
+			<feFuncA type="discrete" tableValues="1 0 0 0 1 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_06">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 1 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_07">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 0 1 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_08">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 1"/>
+		</feComponentTransfer>
+
+		
+		<feImage width="3" height="3" href="#halftone_pattern_01"/>
+		<feTile result="halftone_pattern_01"/>
+		<feComposite operator="in" in="reverse_luminance_layer_01" in2="halftone_pattern_01" result="halftone_layer_01"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_02"/>
+		<feTile result="halftone_pattern_02"/>
+		<feComposite operator="in" in="reverse_luminance_layer_02" in2="halftone_pattern_02" result="halftone_layer_02"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_03"/>
+		<feTile result="halftone_pattern_03"/>
+		<feComposite operator="in" in="reverse_luminance_layer_03" in2="halftone_pattern_03" result="halftone_layer_03"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_04"/>
+		<feTile result="halftone_pattern_04"/>
+		<feComposite operator="in" in="reverse_luminance_layer_04" in2="halftone_pattern_04" result="halftone_layer_04"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_05"/>
+		<feTile result="halftone_pattern_05"/>
+		<feComposite operator="in" in="reverse_luminance_layer_05" in2="halftone_pattern_05" result="halftone_layer_05"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_06"/>
+		<feTile result="halftone_pattern_06"/>
+		<feComposite operator="in" in="reverse_luminance_layer_06" in2="halftone_pattern_06" result="halftone_layer_06"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_07"/>
+		<feTile result="halftone_pattern_07"/>
+		<feComposite operator="in" in="reverse_luminance_layer_07" in2="halftone_pattern_07" result="halftone_layer_07"/>
+
+		<feImage width="3" height="3" href="#halftone_pattern_08"/>
+		<feTile result="halftone_pattern_08"/>
+		<feComposite operator="in" in="reverse_luminance_layer_08" in2="halftone_pattern_08" result="halftone_layer_08"/>
+
+
+		<feMerge result="halftone_layers">
+			<feMergeNode in="halftone_layer_01"/>
+			<feMergeNode in="halftone_layer_02"/>						
+			<feMergeNode in="halftone_layer_03"/>
+			<feMergeNode in="halftone_layer_04"/>
+			<feMergeNode in="halftone_layer_05"/>
+			<feMergeNode in="halftone_layer_06"/>
+			<feMergeNode in="halftone_layer_07"/>
+			<feMergeNode in="halftone_layer_08"/>
+		</feMerge>
+
+		
+		<feComposite operator="in" in="halftone_layers" in2="SourceGraphic" result="halftone_image"/>
+	</filter>
+</defs>

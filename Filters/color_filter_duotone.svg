@@ -1,0 +1,38 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<filter id="duotone_color_filter" color-interpolation-filters="sRGB">
+		<feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="luminance_layer"/>
+		
+		<feComponentTransfer result="reverse_luminance_layer">
+			<feFuncA type="table" tableValues="1 0"/>
+		</feComponentTransfer>
+
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_1">
+			<feFuncA type="discrete" tableValues="1 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_2">
+			<feFuncA type="discrete" tableValues="0 1"/>
+		</feComponentTransfer>
+
+        <feComposite operator="in" in="SourceGraphic" in2="reverse_luminance_layer_1" result="original_layer_1"/>
+        <feComposite operator="in" in="SourceGraphic" in2="reverse_luminance_layer_2" result="original_layer_2"/>
+
+	    <feComponentTransfer in="original_layer_1" result="color_filter_1">
+	    	<feFuncR type="table" tableValues="0.98, 1"/>
+	    	<feFuncG type="table" tableValues="0.98, 1"/>
+	    	<feFuncB type="table" tableValues="0.98, 1"/>
+	    </feComponentTransfer>
+
+	    <feComponentTransfer in="original_layer_2" result="color_filter_2">
+	    	<feFuncR type="table" tableValues="0.48, 1"/>
+	    	<feFuncG type="table" tableValues="0.94, 1"/>
+	    	<feFuncB type="table" tableValues="0.71, 1"/>
+	    </feComponentTransfer>
+
+		<feMerge result="duotone_filter">
+			<feMergeNode in="color_filter_1"/>
+			<feMergeNode in="color_filter_2"/>
+		</feMerge>
+
+		<feComposite operator="in" in="duotone_filter" in2="SourceGraphic" result="duotone_image"/>
+	</filter>
+</svg>

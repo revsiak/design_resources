@@ -1,0 +1,29 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<filter id="selective_color_filter" color-interpolation-filters="sRGB">
+		<feColorMatrix type="luminanceToAlpha" result="luminance_layer"/>
+
+		<feComponentTransfer result="reverse_luminance_layer">
+			<feFuncA type="table" tableValues="1 0"/>
+		</feComponentTransfer>
+
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_1">
+			<feFuncA type="discrete" tableValues="1 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_2">
+			<feFuncA type="discrete" tableValues="0 1 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_3">
+			<feFuncA type="discrete" tableValues="0 0 1"/>
+		</feComponentTransfer>
+
+		<feComposite operator="in" in="SourceGraphic" in2="reverse_luminance_layer_2" result="selected_luminance_layer"/>
+
+		<feColorMatrix type="matrix" in2="selected_luminance_layer" values="1 0 0 0 0
+			                                                                1 0 0 0 0
+			                                                                1 0 0 0 0
+			                                                                0 0 0 1 0" result="color_filter"/>
+
+
+		<feComposite type="in" in="color_filter" in2="SourceGraphic" result="mid_color_image"/>
+	</filter>
+</svg>

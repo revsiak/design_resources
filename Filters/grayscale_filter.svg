@@ -1,0 +1,11 @@
+<svg>
+	<filter id="reverse_luminance">
+		<feColorMatrix type="luminanceToAlpha" color-interpolation-filters="sRGB" in="SourceGraphic" result="luminance_layer"/>
+
+		<feComponentTransfer color-interpolation-filters="sRGB" result="reverse_luminance_layer">
+			<feFuncA type="table" tableValues="1 0"/>
+		</feComponentTransfer>
+
+		<feComposite operator="in" in2="SourceGraphic"/>
+	</filter>
+</svg>

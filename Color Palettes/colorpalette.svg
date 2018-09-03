@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<svg
+    id="colorpalette"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    width="288"
+    height="358">
+    <text 
+        x="40" y="38" text-anchor="middle" 
+        font-family="Miso" 
+        fill="#020202" stroke="#F8C803" stroke-width="0.18" stroke-opacity="0.88">
+        <tspan 
+            x="40" dy="0" 
+            font-size="12" font-weight="bold">Emerald
+        </tspan>
+        <tspan 
+            x="40" dy="8" 
+            font-size="8">Firefox Theme
+        </tspan>
+    </text>
+    <g id="turquoise" class="green">
+        <rect
+            width="61" height="61" 
+            x="8.5" y="78.5" 
+            fill="#177B5B" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="39" y="107" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="39" dy="0"
+                font-size="7" font-weight="bold">Turquoise
+            </tspan>
+            <tspan
+                x="39" dy="8"
+                font-size="6">#177B5B</tspan>
+        </text>
+    </g>
+    <g id="emerald" class="green">
+        <rect
+            width="61" height="61" 
+            x="8.5" y="148.5" 
+            fill="#3F9276" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="39.5" y="177" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="39.5" dy="0"
+                font-size="7" font-weight="bold">Emerald
+            </tspan>
+            <tspan
+                x="39.5" dy="8" 
+                font-size="6">#17B276</tspan>
+        </text>
+    </g>
+    <g id="tealdeer" class="green">
+        <rect
+            width="61" height="61"
+            x="8.5" y="218.5" 
+            fill="#7BF0B6" stroke="#F8F8F8">
+        </rect>
+        <text 
+            x="39" y="247" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="39" dy="0" 
+                font-size="7" font-weight="bold">Teal Deer
+            </tspan>
+            <tspan
+                x="39" dy="8" 
+                font-size="6">#7BF0B6</tspan>
+        </text>
+    </g>
+    <g id="catalinablue" class="blue">
+        <rect
+            width="61" height="61" 
+            x="78.5" y="8.5" 
+            fill="#032176" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="110" y="38" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="110" dy="0" 
+                font-size="7" font-weight="bold">Catalina Blue
+            </tspan>
+            <tspan
+                x="110" dy="8" 
+                font-size="6">#032176</tspan>
+        </text>
+    </g>
+    <g id="sapphire" class="blue">
+        <rect
+            width="61" height="61" 
+            x="78.5" y="78.5"
+            fill="#0E3FB6" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="109" y="107" text-anchor="middle"
+            fill="#F8F8F8" stroke="none">
+            <tspan 
+                x="109" dy="0"
+                font-size="7" font-weight="bold">Sapphire
+            </tspan>
+            <tspan 
+                x="109" dy="8"
+                font-size="6">#0E3FB6</tspan>
+        </text>
+    </g>
+    <g id="lapislazuli" class="blue">
+        <rect
+            width="61" height="61" 
+            x="78.5" y="148.5" 
+            fill="#3060AB" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="110" y="177" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="110" dy="0" 
+                font-size="7" font-weight="bold">Lapis Lazuli
+            </tspan>
+            <tspan
+                x="110" dy="8" 
+                font-size="6">#3060AB
+            </tspan>
+        </text>
+    </g>
+    <g id="aquamarine" class="blue">
+        <rect
+            width="61" height="61" 
+            x="78.5" y="218.5" 
+            fill="#7BB6F0" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="109" y="247" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="109" dy="0" 
+                font-size="7" font-weight="bold">Aquamarine
+            </tspan>
+            <tspan
+                x="109" dy="8"
+                font-size="6">#7BB6F0
+            </tspan>
+        </text>
+    </g>
+    <g id="mahogany" class="red">
+        <rect
+            width="61" height="61" 
+            x="148.5" y="8.5" 
+            fill="#8C1B24" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="180" y="38" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="180" dy="0" 
+                font-size="7" font-weight="bold">Mahogany
+            </tspan>
+            <tspan
+                x="180" dy="8" 
+                font-size="6">#8C1B24
+            </tspan>
+        </text>
+    </g>
+    <g id="antiquered" class="red">
+        <rect
+            width="61" height="61" 
+            x="148.5" y="78.5" 
+            fill="#C83032" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="179" y="107" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="179" dy="0" 
+                font-size="7" font-weight="bold">Antique Red
+            </tspan>
+            <tspan
+                x="179" dy="8" 
+                font-size="6">#C83032
+            </tspan>
+        </text>
+    </g>
+    <g id="amethyst" class="red">
+        <rect
+            width="61" height="61" 
+            x="148.5" y="148.5" 
+            fill="#F0174F" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="179.5" y="177" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="179.5" dy="0" 
+                font-size="7" font-weight="bold">Amethyst
+            </tspan>
+            <tspan
+                x="179.5" dy="8" 
+                font-size="6">#F0174F
+            </tspan>
+        </text>
+    </g>
+    <g id="rose" class="red">
+        <rect
+            width="61" height="61"
+            x="148.5" y="218.5" 
+            fill="#FA5B6C" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="179" y="247" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="179" dy="0"
+                font-size="7" font-weight="bold">Rose
+            </tspan>
+            <tspan
+                x="179" dy="8" 
+                font-size="6">#FA5B6C
+            </tspan>
+        </text>
+    </g>
+    <g id="black" class="neutral">
+        <rect
+            width="61" height="61" 
+            x="218.5" y="8.5" 
+            fill="#020202" stroke="none">
+        </rect>
+        <text
+            x="249" y="38" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="249" dy="0" 
+                font-size="7" font-weight="bold">Black
+            </tspan>
+            <tspan
+                x="249" dy="8" 
+                font-size="6">#020202
+            </tspan>
+        </text>
+    </g>
+    <g id="darkgray" class="neutral">
+        <rect
+            width="61" height="61" 
+            x="218.5" y="78.5" 
+            fill="#2B2B2B" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="249" y="107" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="249" dy="0" 
+                font-size="7" font-weight="bold">Dark Gray
+            </tspan>
+            <tspan
+                x="249" dy="8" 
+                font-size="6">#2B2B2B
+            </tspan>
+        </text>
+    </g>
+    <g id="lightgray" class="neutral">
+        <rect
+            width="61" height="61"
+            x="218.5" y="148.5" 
+            fill="#626262" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="249" y="177" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="249" dy="0"
+                font-size="7" font-weight="bold">Light Gray
+            </tspan>
+            <tspan
+                x="249" dy="8" 
+                font-size="6">#626262
+            </tspan>
+        </text>
+    </g>
+    <g id="silver" class="neutral">
+        <rect
+            width="61" height="61" 
+            x="218.5" y="218.5" 
+            fill="#B2B2B2" stroke="none">
+        </rect>
+        <text
+            x="248.5" y="247" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="248.5" dy="0" 
+                font-size="7" font-weight="bold">Silver
+            </tspan>
+            <tspan
+                x="248.5" dy="8" 
+                font-size="6">#B2B2B2
+            </tspan>
+        </text>
+    </g>
+    <g id="white" class="neutral">
+        <rect
+            width="61" height="61" 
+            x="218.5" y="288.5" 
+            fill="#F8F8F8" stroke="#020202">
+        </rect>
+        <text
+            x="249" y="318" text-anchor="middle" 
+            fill="#020202" stroke="none">
+            <tspan
+                x="249" dy="0" 
+                font-size="7" font-weight="bold">White
+            </tspan>
+            <tspan
+                x="249" dy="8"
+                font-size="6">#F8F8F8
+            </tspan>
+        </text>
+    </g>
+    <g id="yellow" class="highlight">
+        <rect
+            width="61" height="61" 
+            x="8.5" y="288.5" 
+            fill="#FAE132" stroke="none">
+        </rect>
+        <text
+            x="39.5" y="318" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="39.5" dy="0" 
+                font-size="7" font-weight="bold">Yellow
+            </tspan>
+            <tspan
+                x="39.5" dy="8" 
+                font-size="6">#FAE132
+            </tspan>
+        </text>
+    </g>
+    <g id="orange" class="highlight">
+        <rect
+            width="61" height="61" 
+            x="78.5" y="288.5" 
+            fill="#E28A44" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="109" y="318" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="109" dy="0" 
+                font-size="7" font-weight="bold">Sunset
+            </tspan>
+            <tspan
+                x="109" dy="8" 
+                font-size="6">#032176
+            </tspan>
+        </text>
+    </g>
+    <g id="gold" class="highlight">
+        <rect 
+            width="61" height="61" 
+            x="148.5" y="288.5"
+            fill="#F8C803" stroke="#F8F8F8">
+        </rect>
+        <text
+            x="179" y="318" text-anchor="middle" 
+            fill="#F8F8F8" stroke="none">
+            <tspan
+                x="179" dy="0" 
+                font-size="7" font-weight="bold">Gold
+            </tspan>
+            <tspan
+                x="179" dy="8" 
+                font-size="6">#F8C803
+            </tspan>
+        </text>
+    </g>
+</svg>

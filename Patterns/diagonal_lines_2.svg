@@ -1,0 +1,14 @@
+<svg 
+	id="diagonal_lines_2"
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	width="12" 
+	height="12">
+	<pattern id="diagonal-lines-2" height="12" width="12">
+		<path 
+			d="m 0,12 12,-12" 
+			fill="none" stroke="#020202" stroke-width="1.5" stroke-opacity="1">
+		</path>
+	</pattern>
+	<rect width="12" height="12" fill="url(#diagonal-lines-2)"/>
+</svg>

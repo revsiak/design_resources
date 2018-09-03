@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="16"
+   height="16">
+  <path 
+    d="m 3.5,10.5 4.5,-4.5 4.5,4.5"
+    fill="none" stroke="#000000" stroke-width="1.4" stroke-opacity="1"/>
+</svg>

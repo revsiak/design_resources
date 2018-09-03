@@ -1,0 +1,15 @@
+<svg 
+	id="square_pattern_3"
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	width="12" 
+	height="12">
+	<pattern id="square-3" width="12" height="12">
+		<rect 
+			width="3" height="3" 
+			x="4.5" y="4.5" 
+			fill="#020202" fill-opacity="1">
+		</rect>
+	</pattern>
+	<rect width="12" height="12" fill="url(#square-3)"/>
+</svg>

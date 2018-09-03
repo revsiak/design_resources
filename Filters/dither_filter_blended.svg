@@ -1,0 +1,566 @@
+<svg>
+	<defs>
+		<pattern id="dither_pattern_01" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_02" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_03" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_04" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="2"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="5"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="8"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="11"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="14"
+				fill="#020202" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_05" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_06" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="2" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="14" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_07" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#020202" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="2"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="5"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="8"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="5" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="11" y="11"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+			<rect
+				width="1" height="1"
+				x="8" y="14"
+				fill="#F8F8F8" stroke="none">
+			</rect>
+		</pattern>
+
+		<pattern id="dither_pattern_08" width="16" height="16">
+			<rect
+				width="16" height="16"
+				x="0" y="0"
+				fill="#020202" stroke="none">
+			</rect>
+		</pattern>
+	</defs>
+
+
+	<filter id="dithered_gradient_filter" color-interpolation-filters="sRGB">
+		<feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="luminance_layer"/>
+
+		<feComponentTransfer in="luminance_layer" result="reverse_luminance_layer">
+			<feFuncA type="table" tableValues="1 0"/>
+		</feComponentTransfer>
+
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_01">
+			<feFuncA type="discrete" tableValues="1 0 0 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_02">
+			<feFuncA type="discrete" tableValues="0 1 0 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_03">
+			<feFuncA type="discrete" tableValues="0 0 1 0 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_04">
+			<feFuncA type="discrete" tableValues="0 0 0 1 0 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_05">
+			<feFuncA type="discrete" tableValues="0 0 0 0 1 0 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_06">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 1 0 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_07">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 0 1 0"/>
+		</feComponentTransfer>
+		<feComponentTransfer in="reverse_luminance_layer" result="reverse_luminance_layer_08">
+			<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 1"/>
+		</feComponentTransfer>
+
+		<feComposite operator="in" in="reverse_luminance_layer_01" in2="SourceGraphic" result="original_layer_01"/>
+		<feComposite operator="in" in="reverse_luminance_layer_02" in2="SourceGraphic" result="original_layer_02"/>
+		<feComposite operator="in" in="reverse_luminance_layer_03" in2="SourceGraphic" result="original_layer_03"/>
+		<feComposite operator="in" in="reverse_luminance_layer_04" in2="SourceGraphic" result="original_layer_04"/>
+		<feComposite operator="in" in="reverse_luminance_layer_05" in2="SourceGraphic" result="original_layer_05"/>
+		<feComposite operator="in" in="reverse_luminance_layer_06" in2="SourceGraphic" result="original_layer_06"/>
+		<feComposite operator="in" in="reverse_luminance_layer_07" in2="SourceGraphic" result="original_layer_07"/>
+		<feComposite operator="in" in="reverse_luminance_layer_08" in2="SourceGraphic" result="original_layer_08"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_01"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_01" in2="original_layer_01" result="dither_layer_01"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_02"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_02" in2="original_layer_02" result="dither_layer_02"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_03"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_03" in2="original_layer_03" result="dither_layer_03"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_04"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_04" in2="original_layer_04" result="dither_layer_04"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_05"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_05" in2="original_layer_05" result="dither_layer_05"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_06"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_06" in2="original_layer_06" result="dither_layer_06"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_07"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_07" in2="original_layer_07" result="dither_layer_07"/>
+
+		<feImage width="16" height="16" href="#dither_pattern_08"/>
+		<feTile/>
+		<feBlend mode="lighten" in="dither_pattern_08" in2="original_layer_08" result="dither_layer_08"/>
+
+
+		<feMerge result="dither_layer">
+			<feMergeNode in="dither_layer_01"/>
+			<feMergeNode in="dither_layer_02"/>
+			<feMergeNode in="dither_layer_03"/>
+			<feMergeNode in="dither_layer_04"/>
+			<feMergeNode in="dither_layer_05"/>
+			<feMergeNode in="dither_layer_06"/>
+			<feMergeNode in="dither_layer_07"/>
+			<feMergeNode in="dither_layer_08"/>
+		</feMerge>
+
+		<feComposite operator="in" in="dither_layers" in2="SourceGraphic" result="blended_dither_image"/>
+	</filter>
+</svg>

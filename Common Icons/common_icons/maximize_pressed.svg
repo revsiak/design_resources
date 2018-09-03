@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	width="16"
+	height="16">
+	<circle
+		r="7"
+		cx="8" cy="8"
+		fill="#17B276" fill-opacity="1">
+	</circle>
+	<path
+		d="m 6.8,5 3.381737,0 c 0.450297,0 0.816227,0.36847 0.818758,0.8188 l 0,3.3817 z m 2.407413,6.00692 -3.395078,0 c -0.450346,0 -0.818758,-0.36842 -0.818758,-0.81875 l 0,-3.39509 4.213836,4.21384"
+		fill="#F8F8F8" fill-opacity="1">
+	</path>
+</svg>
